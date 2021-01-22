@@ -86,4 +86,14 @@ header .hero-bg {
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.6);
 }
+
+header .btn-outline-light {
+  text-transform: uppercase;
+}
+
+header .fa-arrow-down {
+  -webkit-transform: translateY(-120%);
+          transform: translateY(-120%);
+  font-size: 30px;
+}
 /*# sourceMappingURL=style.css.map */
