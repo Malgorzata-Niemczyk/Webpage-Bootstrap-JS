@@ -31,10 +31,15 @@ nav a:hover {
 
 nav i {
   padding: 10px;
+  font-size: 25px;
 }
 
-nav span {
+nav span:first-of-type {
   color: #039dff;
+}
+
+nav span:last-of-type {
+  color: #FFA500;
 }
 
 nav .navbar-brand {
@@ -78,5 +83,13 @@ header .hero-bg {
   height: 100vh;
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+header span:first-of-type {
+  color: #039dff;
+}
+
+header span:last-of-type {
+  color: #FFA500;
 }
 /*# sourceMappingURL=style.css.map */
