@@ -1,4 +1,5 @@
 $orange-color: #FFA500
+$blue-color: #039dff
 
 *, *::before, *::after
     box-sizing: border-box
@@ -15,7 +16,7 @@ body
         
 header, nav 
     span:first-of-type
-        color: #039dff
+        color: $blue-color
 
     span:last-of-type
         color: $orange-color
@@ -44,7 +45,7 @@ nav
         transition: color 0.3s 
 
     a:hover 
-        color: #039dff
+        color: $blue-color
 
     i
         padding: 10px
@@ -58,7 +59,7 @@ nav
             color: #fff
     
     .active
-        color: #039dff
+        color: $blue-color
     
 .shadow-bg
     background-color: rgba(0, 0, 0, 0.8)
@@ -72,7 +73,7 @@ header
         font-size: 32px
 
     span
-        color: #039dff
+        color: $blue-color
 
     .hero-img
         position: relative
@@ -116,6 +117,12 @@ header
     p 
         font-size: 14px
 
+    .aboutus-hover
+        transition: color 0.3s, transform 0.3s
+
+    .aboutus-hover:hover
+        color: $blue-color
+        transform: scale(1.2)
 
 
 @media (min-width: 375px)
