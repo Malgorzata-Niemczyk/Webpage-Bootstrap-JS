@@ -29,11 +29,17 @@ header, nav
         text-transform: uppercase
         text-align: center
 
-    .underline
-        margin: 0 auto 40px
-        width: 60px
-        height: 5px
-        background-color: $orange-color
+.underline
+    margin: 0 auto 40px
+    width: 60px
+    height: 5px
+    background-color: $orange-color
+
+.scroll-fix::before
+    display: block
+    margin-top: -87px
+    height: 87px
+    content: ''
 
 // NAVIGATION   
 nav

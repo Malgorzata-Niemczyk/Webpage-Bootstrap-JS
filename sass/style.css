@@ -33,11 +33,18 @@ header span:last-of-type, nav span:last-of-type {
   text-align: center;
 }
 
-.wrapper .underline {
+.underline {
   margin: 0 auto 40px;
   width: 60px;
   height: 5px;
   background-color: #FFA500;
+}
+
+.scroll-fix::before {
+  display: block;
+  margin-top: -87px;
+  height: 87px;
+  content: '';
 }
 
 nav {
