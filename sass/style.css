@@ -80,6 +80,7 @@ nav .active {
 
 header {
   color: #ffffff;
+  overflow: hidden;
 }
 
 header h1 {
