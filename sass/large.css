@@ -3,6 +3,7 @@ header .fa-arrow-down {
   -webkit-transform: translateY(-150%);
           transform: translateY(-150%);
   font-size: 30px;
+  color: #fff;
   -webkit-animation: flash 2.5s infinite;
           animation: flash 2.5s infinite;
 }
