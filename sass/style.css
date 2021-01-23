@@ -25,6 +25,8 @@ header span:last-of-type, nav span:last-of-type {
 
 nav {
   text-transform: uppercase;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
 }
 
 nav a, nav i {
