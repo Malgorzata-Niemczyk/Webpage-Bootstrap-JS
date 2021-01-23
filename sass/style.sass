@@ -48,6 +48,9 @@ nav
 header
     color: #ffffff
 
+    h1
+        font-size: 32px
+
     span
         color: #039dff
 
@@ -65,6 +68,9 @@ header
         top: 50%
         left: 50%
         transform: translate(-50%, -50%)
+        
+        p
+            font-size: 13px
 
     .hero-bg
         height: 100vh
@@ -75,6 +81,15 @@ header
         text-transform: uppercase
 
     .fa-arrow-down
+        display: none
         transform: translateY(-120%)
         font-size: 30px
 
+@media (min-width: 375px)
+    header
+        h1 
+            font-size: 38px
+            
+        .hero-text
+            p
+                font-size: 16px
