@@ -1,4 +1,7 @@
 header .fa-arrow-down {
   display: block;
+  -webkit-transform: translateY(-150%);
+          transform: translateY(-150%);
+  font-size: 30px;
 }
 /*# sourceMappingURL=large.css.map */

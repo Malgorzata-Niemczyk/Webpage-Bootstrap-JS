@@ -101,9 +101,6 @@ header .btn-outline-light {
 
 header .fa-arrow-down {
   display: none;
-  -webkit-transform: translateY(-150%);
-          transform: translateY(-150%);
-  font-size: 30px;
 }
 
 @media (min-width: 375px) {
