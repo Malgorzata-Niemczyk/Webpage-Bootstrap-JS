@@ -176,11 +176,12 @@ header .fa-arrow-down {
 }
 
 #aboutus .platform-games h3 {
+  font-size: 23px;
   text-transform: initial;
 }
 
 #aboutus .platform-games i {
-  font-size: 15px;
+  margin: 0;
 }
 
 #aboutus .platform-games .hero-bg {
@@ -190,6 +191,10 @@ header .fa-arrow-down {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: -10;
+}
+
+#aboutus .platform-games .platform-games-item {
+  margin: 15px 0;
 }
 
 @media (min-width: 375px) {
