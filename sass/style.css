@@ -47,6 +47,10 @@ header span:last-of-type, nav span:last-of-type {
   content: '';
 }
 
+.visibility {
+  visibility: hidden;
+}
+
 .jumbotron-fluid {
   margin-bottom: 0;
 }
@@ -155,7 +159,6 @@ header .fa-arrow-down {
 #aboutus .aboutus-hover {
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
-  visibility: hidden;
 }
 
 #aboutus .aboutus-hover:hover {
