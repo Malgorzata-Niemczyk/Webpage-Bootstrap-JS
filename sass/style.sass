@@ -41,6 +41,9 @@ header, nav
     height: 87px
     content: ''
 
+.jumbotron-fluid
+        margin-bottom: 0
+
 // NAVIGATION   
 nav
     text-transform: uppercase
@@ -132,8 +135,11 @@ header
 
     .platform-games
         position: relative
-        color: #fff
+        color: #ddd
         background-image: url('../img/digitalisation-img.jpg')
+        background-position: center
+        background-size: cover
+        z-index: 10
 
     .platform-games
             h2
@@ -147,12 +153,12 @@ header
             
             .hero-bg
                 position: absolute
+                top: 0
                 height: 100%
                 width: 100%
-                background-color: rgba(0, 0, 0, 0.6) 
+                background-color: rgba(0, 0, 0, 0.6)
+                z-index: -10
     
-    .jumbotron-fluid
-        margin-bottom: 0
 
 @media (min-width: 375px)
     header

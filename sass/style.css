@@ -47,6 +47,10 @@ header span:last-of-type, nav span:last-of-type {
   content: '';
 }
 
+.jumbotron-fluid {
+  margin-bottom: 0;
+}
+
 nav {
   text-transform: uppercase;
   -webkit-transition: background-color 0.5s;
@@ -160,8 +164,11 @@ header .fa-arrow-down {
 
 #aboutus .platform-games {
   position: relative;
-  color: #fff;
+  color: #ddd;
   background-image: url("../img/digitalisation-img.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 10;
 }
 
 #aboutus .platform-games h2 {
@@ -178,13 +185,11 @@ header .fa-arrow-down {
 
 #aboutus .platform-games .hero-bg {
   position: absolute;
+  top: 0;
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.6);
-}
-
-#aboutus .jumbotron-fluid {
-  margin-bottom: 0;
+  z-index: -10;
 }
 
 @media (min-width: 375px) {
