@@ -205,6 +205,19 @@ header .fa-arrow-down {
   text-transform: uppercase;
 }
 
+#portfolio .carousel-item {
+  position: relative;
+  height: 500px;
+}
+
+#portfolio .carousel-item img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 @media (min-width: 375px) {
   header h1 {
     font-size: 38px;
