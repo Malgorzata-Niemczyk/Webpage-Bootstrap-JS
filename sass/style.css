@@ -158,6 +158,31 @@ header .fa-arrow-down {
   color: #039dff;
 }
 
+#aboutus .platform-games {
+  position: relative;
+  color: #fff;
+  background-image: url("../img/digitalisation-img.jpg");
+}
+
+#aboutus .platform-games h2 {
+  text-transform: uppercase;
+}
+
+#aboutus .platform-games h3 {
+  text-transform: initial;
+}
+
+#aboutus .platform-games i {
+  font-size: 15px;
+}
+
+#aboutus .platform-games .hero-bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
 @media (min-width: 375px) {
   header h1 {
     font-size: 38px;
