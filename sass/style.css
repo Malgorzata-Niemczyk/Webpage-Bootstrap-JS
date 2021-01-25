@@ -230,6 +230,56 @@ header .fa-arrow-down {
   padding-bottom: 20px;
 }
 
+#prices .prices {
+  background-color: #f1efef;
+}
+
+#prices h4 {
+  text-transform: uppercase;
+  color: #039dff;
+}
+
+#prices .card {
+  -webkit-box-shadow: 3px 3px 5px #000;
+          box-shadow: 3px 3px 5px #000;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+#prices .card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#prices .card-text {
+  font-weight: bold;
+  text-align: center;
+}
+
+#prices .card-text span {
+  font-weight: lighter;
+}
+
+#prices .card-text i {
+  margin-right: 5px;
+}
+
+#prices .btn {
+  text-transform: uppercase;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+#prices .btn:hover {
+  background-color: #039dff;
+}
+
+#prices .btn-middle {
+  background-color: #FFA500;
+}
+
 @media (min-width: 375px) {
   header h1 {
     font-size: 38px;
