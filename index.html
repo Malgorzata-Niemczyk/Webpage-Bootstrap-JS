@@ -23,7 +23,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
-            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link active" href="#home">Home</a>
             <a class="nav-link" href="#aboutus">About Us</a>
             <a class="nav-link" href="#portfolio">Portfolio</a>
             <a class="nav-link" href="#prices">Prices</a>
@@ -34,7 +34,7 @@
         </div>
     </nav>
     
-    <header class="text-center">
+    <header id="home" class="text-center">
         <div class="hero-img">
             <div class="hero-bg"></div>
             <div class="hero-text">
@@ -116,7 +116,37 @@
             <div class="jumbotron jumbotron-fluid">
                 <h2 class="text-center">Portfolio</h2>
                 <div class="underline"></div>
-                <div id="carouselExampleCaptions" class="carousel slide d-none d-md-block" data-ride="carousel">
+
+                <!-- PORTFOLIO FOR MOBILE DEVICES -->
+
+                <div class="wrapper">
+                    <div class="card-deck d-lg-none">
+                        <div class="card">
+                          <img src="./img/car-img.jpg" class="card-img-top" alt="a car game">
+                          <div class="card-body">
+                            <h5 class="card-title">Racing GT</h5>
+                            <p class="card-text">Fast cars, beautiful landscapes, the best racetracks - all of these you will find in Racing GT!</p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="./img/comp-players_img.jpg" class="card-img-top" alt="computer players">
+                          <div class="card-body">
+                            <h5 class="card-title">Pro-X Fighters</h5>
+                            <p class="card-text">We created one of the best fighting games that has been played by over 10 mln people!</p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="./img/fantasy-img.jpg" class="card-img-top" alt="a gothic lady and a dragon">
+                          <div class="card-body">
+                            <h5 class="card-title">Gothic Fantasy</h5>
+                            <p class="card-text">The best game of magic, full of powerful wizards and witches!</p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                <!-- PORTFOLIO FOR DESKTOP DEVICES -->
+                <div id="carouselExampleCaptions" class="carousel slide d-none d-lg-block" data-ride="carousel">
                     <ol class="carousel-indicators">
                       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                       <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -124,7 +154,7 @@
                     </ol>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="./img/car-img.jpg" class="d-block w-100" alt="car game">
+                        <img src="./img/car-img.jpg" class="d-block w-100" alt="a car game">
                         <div class="carousel-caption d-none d-md-block">
                           <h5>Racing GT</h5>
                           <p>Fast cars, beautiful landscapes, the best racetracks - all of these you will find in Racing GT!</p>
@@ -138,7 +168,7 @@
                         </div>
                       </div>
                       <div class="carousel-item">
-                        <img src="./img/fantasy-img.jpg" class="d-block w-100" alt="gothic lady and a dragon">
+                        <img src="./img/fantasy-img.jpg" class="d-block w-100" alt="a gothic lady and a dragon">
                         <div class="carousel-caption d-none d-md-block">
                           <h5>Gothic Fantasy</h5>
                           <p>The best game of magic, full of powerful wizards and witches!</p>
