@@ -8,7 +8,7 @@ Desktop devices
 
 ![](screenshots/about-us.PNG)
 
-![](screenshots/portfolio.jpg)
+![](screenshots/portfolio.PNG)
 
 Mobile devices
 
