@@ -218,6 +218,18 @@ header .fa-arrow-down {
           transform: translate(-50%, -50%);
 }
 
+#portfolio .carousel-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#portfolio .carousel-indicators {
+  padding-bottom: 20px;
+}
+
 @media (min-width: 375px) {
   header h1 {
     font-size: 38px;
