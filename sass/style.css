@@ -331,7 +331,7 @@ header .fa-arrow-down {
 }
 
 #team .card img {
-  height: 200px;
+  height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
 }
