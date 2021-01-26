@@ -295,11 +295,6 @@ header .fa-arrow-down {
   font-weight: bold;
 }
 
-#team h2 {
-  color: #ddd;
-  text-transform: uppercase;
-}
-
 #team .team-bg {
   position: relative;
   background-image: url("../img/conference-table-593355_1280.jpg");
@@ -307,6 +302,11 @@ header .fa-arrow-down {
   background-size: cover;
   background-attachment: fixed;
   z-index: 10;
+}
+
+#team .team-bg h2 {
+  color: #ddd;
+  text-transform: uppercase;
 }
 
 #team .team-shadow {
@@ -318,16 +318,16 @@ header .fa-arrow-down {
   z-index: -10;
 }
 
-#team h5 {
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
 #team .card {
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
   transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+#team .card h5 {
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 #team .card:hover {
