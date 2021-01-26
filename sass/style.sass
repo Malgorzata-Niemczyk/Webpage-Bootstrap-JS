@@ -193,6 +193,9 @@ header
 
 // PRICES
 #prices
+    h2
+        text-transform: uppercase
+
     .prices
         background-color:  rgb(241, 239, 239)
 
@@ -238,10 +241,28 @@ header
             font-weight: bold
 
 #team
+    h2
+        color: #ddd
+        text-transform: uppercase
+
+    .team-bg
+        position: relative
+        background-image: url('../img/conference-table-593355_1280.jpg')
+        background-position: center
+        z-index: 10
+
+    .team-shadow
+        position: absolute
+        top: 0
+        width: 100%
+        height: 100%
+        background-color: rgba(0, 0, 0, 0.6)
+        z-index: -10
+
     h5
         font-weight: bold
         text-transform: uppercase
-        
+ 
     .card  
         transition: transform 0.3s
 

@@ -230,6 +230,10 @@ header .fa-arrow-down {
   padding-bottom: 20px;
 }
 
+#prices h2 {
+  text-transform: uppercase;
+}
+
 #prices .prices {
   background-color: #f1efef;
 }
@@ -289,6 +293,27 @@ header .fa-arrow-down {
 #prices .packages-small-note span {
   text-transform: uppercase;
   font-weight: bold;
+}
+
+#team h2 {
+  color: #ddd;
+  text-transform: uppercase;
+}
+
+#team .team-bg {
+  position: relative;
+  background-image: url("../img/conference-table-593355_1280.jpg");
+  background-position: center;
+  z-index: 10;
+}
+
+#team .team-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -10;
 }
 
 #team h5 {
