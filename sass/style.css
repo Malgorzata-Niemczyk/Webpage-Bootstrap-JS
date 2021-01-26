@@ -330,6 +330,17 @@ header .fa-arrow-down {
   text-transform: uppercase;
 }
 
+#team .card img {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#team .card .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 #team .card:hover {
   -webkit-transform: scale(0.95);
           transform: scale(0.95);
