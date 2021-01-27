@@ -392,8 +392,9 @@ header .fa-arrow-down {
 }
 
 #contact a {
-  color: #dddddd;
   padding: 10px;
+  font-size: 25px;
+  color: #dddddd;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
@@ -407,7 +408,7 @@ header .fa-arrow-down {
 }
 
 #contact .contact-item {
-  padding-bottom: 25px;
+  padding-bottom: 30px;
   text-align: center;
 }
 
