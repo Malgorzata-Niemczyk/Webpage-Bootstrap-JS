@@ -412,6 +412,16 @@ header .fa-arrow-down {
   text-align: center;
 }
 
+footer {
+  padding: 25px;
+  color: #fff;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
 @media (min-width: 375px) {
   header h1 {
     font-size: 38px;
