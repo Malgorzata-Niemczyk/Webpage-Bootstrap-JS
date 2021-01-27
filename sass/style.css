@@ -354,6 +354,24 @@ header .fa-arrow-down {
   font-size: 14px;
 }
 
+#achievements h2, #achievements p {
+  text-transform: uppercase;
+}
+
+#achievements .achievements-item {
+  margin-bottom: 25px;
+}
+
+#achievements .achievements-item i {
+  font-size: 30px;
+  color: #ffffff;
+  text-shadow: 0 0 5px #000000;
+}
+
+#achievements .achievements-text {
+  font-size: 13px;
+}
+
 @media (min-width: 375px) {
   header h1 {
     font-size: 38px;
