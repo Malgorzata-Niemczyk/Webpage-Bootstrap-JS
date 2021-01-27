@@ -361,5 +361,11 @@ header .fa-arrow-down {
   header .hero-text p {
     font-size: 16px;
   }
+  #team .card-body {
+    height: 120px;
+  }
+  #team .card-text {
+    font-size: 16px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
