@@ -304,10 +304,36 @@ header
 
 //CONTACT
 #contact
+    .contact-bg
+        position: relative
+        color: #dddddd
+        background-image: url('../img/london-bridge-1143467_1280.jpg')
+        background-attachment: fixed
+        background-size: cover
+        background-position: center
+        z-index: 10
+
+    .contact-shadow
+        position: absolute
+        top: 0
+        width: 100%
+        height: 100%
+        background-color: rgba(0, 0, 0, 0.7)
+        z-index: -10
+        
+    a
+        color: #dddddd
+        padding: 10px
+        transition: color 0.3s
+
+    a:hover
+        color: $blue-color
+
     h2, h4
         text-transform: uppercase
-        
+
     .contact-item
+        padding-bottom: 25px
         text-align: center
 
 
