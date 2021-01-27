@@ -372,6 +372,14 @@ header .fa-arrow-down {
   font-size: 13px;
 }
 
+#contact h2, #contact h4 {
+  text-transform: uppercase;
+}
+
+#contact .contact-item {
+  text-align: center;
+}
+
 @media (min-width: 375px) {
   header h1 {
     font-size: 38px;
