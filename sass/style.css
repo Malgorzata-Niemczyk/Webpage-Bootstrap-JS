@@ -177,6 +177,7 @@ header .fa-arrow-down {
 
 #aboutus .platform-games h2 {
   text-transform: uppercase;
+  padding: 0 5px;
 }
 
 #aboutus .platform-games h3 {
